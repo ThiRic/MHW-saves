@@ -34,8 +34,6 @@ except FileExistsError:
 #Get the original save file from user
 defaultSteamPath="E:/Program Files (x86)/Steam/userdata/00000000/582010/remote"
 
-## To do later: if le chemin par defaut = TRUE -> default = initialdir, else: saveFile with initialdir = "/"
-    
 saveFile = tkinter.filedialog.askopenfilename(initialdir = defaultSteamPath, title = "Please select save file to back up",filetypes = ())
 if "SAVEDATA1000" in saveFile:
    print ("You chose {0} as your save file to back up".format(saveFile))
