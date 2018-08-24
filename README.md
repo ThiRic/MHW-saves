@@ -4,7 +4,7 @@ Two very simple python 3 scripts to back up and restore a saved game for Monster
 These scripts require Python 3, please install it before using these scripts.
 You can download Python 3 at https://www.python.org/download/releases/3.0/
 
-=====================================================================================
+=================================================================================
 
 Back up your saves:
 
@@ -17,7 +17,7 @@ Back up your saves:
 All the saves are stored within a directory with the name day_month_year_hourminute.
 
 
-=====================================================================================
+=================================================================================
 
 Restore a save file:
 
